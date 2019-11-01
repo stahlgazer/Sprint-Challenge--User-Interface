@@ -66,6 +66,23 @@ p {
     line-height: 1.4;
 }
 
+/*my css beings here*/
+
+.topnav {
+    padding: 2% 0 2% 0;
+    display:flex;
+    justify-content: space-between;
+    align-items:baseline;
+}
+
+.topnav a{
+    color:black;
+}
+
+.roadphoto{
+    margin:3% 0 3% 0;
+}
+
 .container {
     width: 800px;
     margin: 0 auto;
@@ -111,6 +128,39 @@ p {
     align-items: center;
     justify-content: center;
 }
+/* Box colors */
+
+.middle-content .boxes .box.box1{
+    background-color:teal;
+}
+.middle-content .boxes .box.box2{
+    background-color:gold;
+}
+.middle-content .boxes .box.box3{
+    background-color:cadetblue;
+}
+.middle-content .boxes .box.box4{
+    background-color:coral;
+}
+.middle-content .boxes .box.box5{
+    background-color:crimson;
+}
+.middle-content .boxes .box.box6{
+    background-color:forestgreen;
+}
+.middle-content .boxes .box.box7{
+    background-color:darkorchid;
+}
+.middle-content .boxes .box.box8{
+    background-color:hotpink;
+}
+.middle-content .boxes .box.box9{
+    background-color:indigo;
+}
+.middle-content .boxes .box.box10{
+    background-color:dodgerblue;
+}
+
 
 .bottom-content {
     display: flex;
