@@ -71,7 +71,7 @@ p {
 .topnav {
     padding: 2% 0 2% 0;
     display:flex;
-    justify-content: space-between;
+    justify-content:space-between;
     align-items:baseline;
 }
 
@@ -193,4 +193,51 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+/* About page changes */
+
+.aboutbanner {
+    margin:3% 0 3% 0;
+}
+
+.about-section{
+    border-bottom:1px dotted black;
+    padding-bottom: 3%;
+    margin-bottom:3%;
+}
+
+.about-div{
+    width:95%;
+    margin:auto;
+}
+
+.middle-top{
+    display:flex;
+    width:95%;
+    margin:auto;
+}
+
+.middle-bottom{
+    display:flex;
+    width:95%;
+    margin:auto;
+}
+
+.middle-box{
+    border-bottom:1px dotted black;
+    padding-bottom: 3%;
+    margin-bottom:3%;
+}
+
+.together-section{
+    width:95%;
+    margin:auto;
+    padding: 2% 0 5% 0;
+}
+
+.learnmore{
+    border:1px solid black;
+    border-radius:25px;
+    margin:2% 0 2% 0;
 }
